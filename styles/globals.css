@@ -1,3 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600;700;900&family=Montserrat:wght@100;200;300;400;600;700;800;900&family=Poppins:wght@100;200;300;400;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+
+@font-face {
+  font-family: "Avenir";
+  font-display: swap;
+  src: url("../src/assets/fonts/AvenirLTStd-Black.otf") format("otf");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Avenir";
+  font-display: swap;
+  src: url("../src/assets/fonts/AvenirLTStd-Roman.otf") format("otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Avenir";
+  font-display: swap;
+  src: url("../src/assets/fonts/AvenirLTStd-Book.otf") format("otf");
+  font-weight: 400;
+}
+
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -13,4 +41,17 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.slick-slide {
+  margin-right: 1px;
+}
+
+.slick-slider {
+  overflow: hidden !important;
+}
+
+.slick-track,
+.slick-list {
+  height: 500px !important;
 }
