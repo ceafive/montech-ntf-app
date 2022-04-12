@@ -19,7 +19,7 @@ const Discover = () => {
             <div className="mt-10 flex justify-center lg:block">
               <button className="font-montserrat text-[17px] leading-[25px] border border-white px-4 py-2 flex items-center">
                 <span className="mr-2">Learn More</span>
-                <ion-icon name="arrow-forward-sharp"></ion-icon>
+                <ion-icon name="arrow-forward-sharp"></ion-icon>;
               </button>
             </div>
           </div>
